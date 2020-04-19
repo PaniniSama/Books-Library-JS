@@ -1,4 +1,5 @@
 const mongoos = require('mongoose')
+const Book = require('./book')
 
 const authorSchema = new mongoos.Schema({
     name:{
